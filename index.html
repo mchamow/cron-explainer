@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cron Explainer</title>
+    <meta name="description" content="Turn cron expressions into plain English and see when they run next — Day 34 of 100 Days of React." />
+    <script>
+      // Pick the theme before first paint so dark-mode visitors don't get a white flash.
+      // src/theme.ts keeps the class in step with the system setting after the app loads.
+      if (matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.documentElement.classList.add('dark')
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
